@@ -4,6 +4,7 @@ Documentacion de Github
 
 # Comandos
 
+```c#
 git --version                       Se utiliza para ver la version del git en consola
 git help                            Para ver la ayuda de git
 git clone urlservidor               Para clonar el repositorio en mi maquina local 
@@ -12,7 +13,7 @@ git commit -m "Titulo del commit"   Este comando sca la foto del como esta el re
 git push origin                     Sube el commit o la foto al main 
 git checkout -- .                   Toma todos los archivos del ultimo commit
 git branch                          Para ver en que rama esta
-
+```
 
 
 # Para un alias mejorado y muy util
