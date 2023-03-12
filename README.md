@@ -13,6 +13,9 @@ git commit -m "Titulo del commit"   Este comando sca la foto del como esta el re
 git push origin                     Sube el commit o la foto al main 
 git checkout -- .                   Toma todos los archivos del ultimo commit
 git branch                          Para ver en que rama esta
+git commit -am "Titulo del commit"  Agrega y hace commit en un solo paso sin necesidad de git add .
+git commit --amend -m "Titulo"      Actualiza el titulo del ultimo commit
+git reset --soft HEAD^              Elimina el ultimo commit para poder colocar los cambios a stage
 ```
 
 
