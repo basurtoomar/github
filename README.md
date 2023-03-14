@@ -21,6 +21,7 @@ git commit --amend -m "Titulo"      Actualiza el titulo del ultimo commit
 git reset --soft HEAD^              Elimina el ultimo commit para poder colocar los cambios a stage
 git reflog                          Muestra todos los commits en orden cronologico
 git merge nombredelarama            Une la rama main o master con la rama personalizada
+git pull                            Actualiza al commit mas reciente
 ```
 
 
