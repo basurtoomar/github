@@ -30,9 +30,19 @@ git tag -d nombredeltag             Para boorar el tag de los commit
 git tag -a v1.0.0 -m "Ver 1.0.0"    Va al ultimo commit y agrega un tag para identificar la version
 git tag -a v0.1.0 701c885 -m "Anota" Si queremos colocar un tag a un commit especifico copiamos el hash del commit
 git show v0.1.0                     Para ver mas informacion del tag
+git stash                           Graba todo el directotio y lo indexa sin hacer un commit
+git stash list                      Muestra el listado de Stash
+git stash pop                       Recupera el ultimo stash para continuar trabajando
+git stash clear                     Borra todos los stage
+git stash show nombrestash          Visualizar que cambio en el stash
+git stash save "Agregamos MSG"      Se guarda el stash con una descripcion de los archivos
+git stash list --stat               Muestra el listado de stash con sus descripciones
+
 Tecla ESC :wq!
 ```
 
+
+El stash es una boveda de los archivos que no han hecho un commit 
 
 # Para un alias mejorado y muy util
 
