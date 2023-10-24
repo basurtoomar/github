@@ -12,9 +12,6 @@ git config --global alias.s "status --short"      Es para crear un alias s para 
 :q!                                               Para salir de pantalla bloqueada
 ```
 
-
-Omar Basurto Ramirez
-
 # Comandos
 
 | Command | Description |
